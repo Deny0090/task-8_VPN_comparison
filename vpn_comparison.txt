@@ -1,0 +1,54 @@
+Protonvpn 
+
+There are paid versions available but I use the free version
+You will need to install app depending on your OS - Windows, linux, android, IOS . 
+
+We need to create a account and after downloading the app you have to put in your username and password 
+
+Connect to Server 
+ 
+Limitation with the free trial we can connect to 5 countries server 
+ 
+
+After you have started this VPN service you'll see your ip address has changed 
+
+Verify your ip address 
+
+I visited whatismyipaddress.com to verify that my ip had changed. I included some screenshots 
+
+Corroborate Traffic Encryption 
+
+I visited google.com the lock pad icon shows that the connection secure 
+and visited https://www.dnsleaktest.com/ to check a dns leak the leak is when your ISP could see your browsing in spite of the VPN.
+For more packet inception use wireshark to analyze the traffic 
+
+Disconnect VPN & compare 
+
+I used the speed test on https://www.speedtest.net/ before and after using the vpn as well
+*VPN is slow speed due to encryption overhead* 
+
+7. Research VPN Encryption & Privacy 
+
+Encryption 
+
+AES-256 – Military-grade (best for security).
+
+WireGuard – Fast & secure (modern choice).
+
+OpenVPN – Trusted but slower. 
+
+Privacy Features 
+
+No logs policy (audited = trustworthy).
+
+Kill switch (prevents leaks if VPN drops).
+
+DNS leak protection (hides browsing from ISP). 
+
+ Risks
+
+Free VPNs may log/sell data.
+
+WebRTC leaks can expose your real IP.
+
+Some countries block VPNs (use obfuscated servers).
